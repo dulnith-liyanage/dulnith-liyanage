@@ -5,17 +5,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1500&color=38BDF8&center=true&vCenter=true&width=700&height=40&lines=I+build+things+where+electronics%2C+software+and+AI+meet." alt="I build things where electronics, software and AI meet." />
 </p>
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=dulnith-liyanage">
-    <img src="https://komarev.com/ghpvc/?username=dulnith-liyanage&label=Profile%20views&color=00FFFF&style=flat-square" alt="dulnith-liyanage's profile views" />
-  </a>
-</p>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Divider" width="100%" />
-
-## <samp>👨‍💻 About Me</samp>
-
-<img align="right" width="45%" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Banner" />
+<table>
+  <tr>
+    <td valign="top" width="55%">
 
 - <samp>🎓 Electronics & Telecommunication Engineering undergrad at the **University of Moratuwa**</samp>
 - <samp>🔭 Currently working on [Smart Trash Sorting System](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)</samp>
@@ -23,11 +15,19 @@
 - <samp>🌱 SWE Intern at [BuildStart](https://buildstart.io/)</samp>
 - <samp>⚡ Fun fact: I'd rather derive it than memorize it</samp>
 
-<br clear="all" />
+</td>
+    <td valign="top" width="45%">
+      <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Banner" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<br>
+<br>
 
 <a href="https://github.com/dulnith-liyanage"><img align="right" width="45%" src="https://streak-stats.demolab.com/?user=dulnith-liyanage&theme=dracula&border_radius=10&hide_border=false" alt="dulnith-liyanage's GitHub Streak" /></a>
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="40" />&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40" />&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" width="40" />&nbsp;&nbsp;
@@ -50,8 +50,6 @@
 </p>
 
 <br clear="all" />
-
-## <samp>🚀 Contribution Graph</samp>
 
 <p align="center">
   <img src="game.gif" alt="Space shooter contribution graph" width="100%" />

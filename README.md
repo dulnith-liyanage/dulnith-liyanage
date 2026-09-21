@@ -1,8 +1,8 @@
-<h1 align="center">Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm Dulnith Liyanage</h1>
-<h3 align="center">ENTC Undergrad @ University of Moratuwa</h3>
+<h1 align="center"><samp>Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm Dulnith Liyanage</samp></h1>
+<h3 align="center"><samp>ENTC Undergrad @ University of Moratuwa</samp></h3>
 
 <p align="center">
-  <em>I build things where electronics, software and AI meet.</em>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1500&color=38BDF8&center=true&vCenter=true&width=560&height=40&lines=I+build+things+where+electronics%2C+software+and+AI+meet." alt="I build things where electronics, software and AI meet." />
 </p>
 
 <p align="center">
@@ -13,17 +13,17 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Divider" width="100%" />
 
-## 👨‍💻 About Me
+## <samp>👨‍💻 About Me</samp>
 
 <table>
   <tr>
     <td valign="top" width="55%">
 
-- 🎓 Electronics & Telecommunication Engineering undergrad at the **University of Moratuwa**
-- 🔭 Currently working on [Smart Trash Sorting System](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)
-- 🤖 Trying to understand **machine learning, deep learning & AI agents** from the math up
-- 🌱 SWE Intern at [BuildStart](https://buildstart.io/)
-- ⚡ Fun fact: I'd rather derive it than memorize it
+- <samp>🎓 Electronics & Telecommunication Engineering undergrad at the **University of Moratuwa**</samp>
+- <samp>🔭 Currently working on [Smart Trash Sorting System](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)</samp>
+- <samp>🤖 Trying to understand **machine learning, deep learning & AI agents** from the math up</samp>
+- <samp>🌱 SWE Intern at [BuildStart](https://buildstart.io/)</samp>
+- <samp>⚡ Fun fact: I'd rather derive it than memorize it</samp>
 
 </td>
     <td valign="top" width="45%">
@@ -32,54 +32,32 @@
   </tr>
 </table>
 
-## 🛠️ Languages & Tools
+## <samp>🛠️ Languages & Tools</samp>
 
-<h3 align="center">Programming Languages</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" />
-
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" title="Python" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" title="React" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" title="Tailwind CSS" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" title="scikit-learn" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" title="Raspberry Pi" width="40" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" title="Git" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" title="VS Code" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" title="Figma" width="40" />&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg" alt="Vite" title="Vite" width="40" />
 </p>
 
-<h3 align="center">Frontend</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" />
-
-</p>
-
-<h3 align="center">Data, ML & Hardware</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn" width="40" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" width="40" />
-
-</p>
-
-<h3 align="center">DevOps & Cloud</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />
-
-</p>
-
-<h3 align="center">Tools</h3>
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" />&nbsp;&nbsp;
-  <img src="https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg" alt="Vite" width="40" />
-
-</p>
-
-## 📊 GitHub Stats & Streak
+## <samp>📊 GitHub Stats & Streak</samp>
 
 <p align="center">
   <a href="https://github.com/dulnith-liyanage">
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dulnith-liyanage&cache_seconds=7200&layout=compact&theme=dracula&border_radius=10" alt="dulnith-liyanage's GitHub Stats" />
+    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dulnith-liyanage&cache_seconds=7200&layout=compact&theme=dracula&border_radius=10&hide_rank=true" alt="dulnith-liyanage's GitHub Stats" />
   </a>
 </p>
 
@@ -89,7 +67,8 @@
   </a>
 </p>
 
-## 🚀 Contribution Graph
+## <samp>🚀 Contribution Graph</samp>
+
 <p align="center">
   <img src="game.gif" alt="Space shooter contribution graph" width="100%" />
 </p>

@@ -20,7 +20,7 @@
     <td valign="top" width="55%">
 
 - 🎓 Electronics & Telecommunication Engineering undergrad at the **University of Moratuwa**
-- 🔭 Currently working on [Smart Trash Sorting System](https://github.com/dulnith-liyanage)
+- 🔭 Currently working on [Smart Trash Sorting System](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)
 - 🤖 Trying to understand **machine learning, deep learning & AI agents** from the math up
 - 🌱 SWE Intern at [BuildStart](https://buildstart.io/)
 - ⚡ Fun fact: I'd rather derive it than memorize it

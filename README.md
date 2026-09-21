@@ -2,7 +2,7 @@
 <h3 align="center"><samp>ENTC Undergrad @ University of Moratuwa</samp></h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1500&color=38BDF8&center=true&vCenter=true&width=560&height=40&lines=I+build+things+where+electronics%2C+software+and+AI+meet." alt="I build things where electronics, software and AI meet." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1500&color=38BDF8&center=true&vCenter=true&width=700&height=40&lines=I+build+things+where+electronics%2C+software+and+AI+meet." alt="I build things where electronics, software and AI meet." />
 </p>
 
 <p align="center">

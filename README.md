@@ -32,6 +32,10 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td valign="middle" width="50%">
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="40" />&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="40" />&nbsp;&nbsp;
@@ -63,11 +67,18 @@
   <img src="https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg" alt="Vite" title="Vite" width="40" />
 </p>
 
+</td>
+    <td valign="middle" width="50%">
+
 <p align="center">
   <a href="https://github.com/dulnith-liyanage">
-    <img src="https://streak-stats.demolab.com/?user=dulnith-liyanage&theme=dracula&border_radius=10&hide_border=false" alt="dulnith-liyanage's GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=dulnith-liyanage&theme=dracula&border_radius=10&hide_border=false" alt="dulnith-liyanage's GitHub Streak" width="100%" />
   </a>
 </p>
+
+</td>
+  </tr>
+</table>
 
 ## <samp>🚀 Contribution Graph</samp>
 

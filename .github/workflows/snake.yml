@@ -1,0 +1,44 @@
+name: Contribution Snake
+
+on:
+  schedule:
+    - cron: "17 19 * * *" # 00:47 Asia/Colombo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'dulnith-liyanage/dulnith-liyanage' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Generate light and dark snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: dulnith-liyanage
+          outputs: |
+            dist/github-snake.svg?color_snake=%2338BDF8
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%237DCFFF&color_dots=%231A1B26,%2324293E,%23414F85,%237AA2F7,%23BB9AF7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish snake images to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          jekyll: false
+          commit_message: "chore: refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

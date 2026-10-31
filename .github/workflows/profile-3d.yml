@@ -1,0 +1,50 @@
+name: 3D Contribution Calendar
+
+on:
+  schedule:
+    - cron: "32 19 * * *" # 01:02 Asia/Colombo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/profile-3d.yml]
+
+permissions:
+  contents: write
+
+# Shared with Metrics because both publish to main.
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'dulnith-liyanage/dulnith-liyanage' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate contribution landscapes
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: dulnith-liyanage
+
+      - name: Commit changed landscapes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- profile-3d-contrib/
+          if git diff --cached --quiet; then
+            echo "Contribution landscapes are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh 3D contribution calendar"
+          # Include edits made while rendering; never force-push main.
+          git pull --rebase origin main
+          git push origin HEAD:main

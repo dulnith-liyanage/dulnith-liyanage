@@ -116,8 +116,12 @@ def format_pinned_table(repos):
         if "competition" in full_text or "odyssey" in full_text:
             badges.append('<img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" />')
 
-        # Existing repository topics (fill up remaining slots if any)
+        # Existing repository topics (avoid duplicating words already covered in badges)
+        existing_badge_text = " ".join(badges).lower()
         for t in topics:
+            t_words = [w for w in t.lower().replace("-", " ").replace("_", " ").split() if len(w) > 3]
+            if any(w in existing_badge_text for w in t_words):
+                continue
             b = f'<img src="https://img.shields.io/badge/{urllib.parse.quote(t)}-blue?style=flat-square" />'
             if b not in badges and len(badges) < 4:
                 badges.append(b)

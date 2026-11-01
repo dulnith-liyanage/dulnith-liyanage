@@ -63,7 +63,7 @@
     <td width="50%" valign="top">
       <h4>📊 <a href="https://github.com/dulnith-liyanage/RetailRadar">RetailRadar</a></h4>
       <p>A project for Data Odyssey 2026 Inter-University Competition & Exhibition</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /> <img src="https://img.shields.io/badge/competition-blue?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /></p>
     </td>
   </tr>
 </table>

@@ -56,6 +56,8 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 8
+          plugin_languages_ignored: "jupyter notebook, html, css, makefile, shell"
+          plugin_languages_categories: programming
           config_timezone: Asia/Colombo
 
       - name: Copy and format rendered cards

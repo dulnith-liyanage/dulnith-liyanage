@@ -73,11 +73,11 @@
 
 <table>
   <tr>
-    <th width="45%">🛠️ Technical Arsenal</th>
-    <th width="55%">🗓️ Isometric Commit Calendar</th>
+    <th width="38%">🛠️ Technical Arsenal</th>
+    <th width="62%">🗓️ Isometric Commit Calendar</th>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="38%">
       <table width="100%">
         <tr>
           <td><b>Hardware &amp; Embedded</b></td>
@@ -112,7 +112,7 @@
         </tr>
       </table>
     </td>
-    <td valign="middle" align="center">
+    <td valign="middle" align="center" width="62%">
       <img src="./isocalendar.svg" alt="Dulnith's Isometric Commit Calendar" width="100%" />
     </td>
   </tr>

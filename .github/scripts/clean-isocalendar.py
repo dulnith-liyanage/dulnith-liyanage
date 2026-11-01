@@ -87,8 +87,8 @@ def clean_isocalendar(input_path, output_path):
     xs = [p[0] for p in pts]
     ys = [p[1] for p in pts]
 
-    pad_x = 6.0
-    pad_y = 6.0
+    pad_x = 1.0
+    pad_y = 2.0
     min_x = min(xs) - pad_x
     min_y = min(ys) - pad_y
     width = (max(xs) - min(xs)) + 2 * pad_x
@@ -96,7 +96,10 @@ def clean_isocalendar(input_path, output_path):
 
     inner_body = content[content.find(">", svg_start) + 1 : svg_end - 6].strip()
 
-    clean_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="{min_x:.1f} {min_y:.1f} {width:.1f} {height:.1f}" width="100%" height="100%">
+    target_w = 1000
+    target_h = int(round(target_w * height / width))
+
+    clean_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="{min_x:.1f} {min_y:.1f} {width:.1f} {height:.1f}" width="{target_w}" height="{target_h}">
 {inner_body}
 </svg>
 '''

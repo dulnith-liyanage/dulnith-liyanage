@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" width="100%" height="100%">
+    <defs>
+        <style>
+            svg {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                color: #777;
+            }
+            h2 {
+                margin: 4px 0 10px;
+                padding: 0;
+                color: #0366d6;
+                font-weight: 600;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+            }
+            h2 svg {
+                fill: currentColor;
+                margin-right: 6px;
+            }
+            .progress-bar {
+                display: flex;
+                height: 10px;
+                border-radius: 6px;
+                overflow: hidden;
+                margin-bottom: 14px;
+                background-color: #ebedf0;
+            }
+            .lang-grid {
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 8px;
+            }
+            .lang-item {
+                display: flex;
+                align-items: center;
+                width: 50%;
+                font-size: 12px;
+                color: #586069;
+            }
+            .lang-dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin-right: 8px;
+                flex-shrink: 0;
+            }
+            .lang-name {
+                font-weight: 500;
+                color: #24292e;
+                margin-right: 6px;
+            }
+            .lang-pct {
+                color: #586069;
+                font-size: 11px;
+            }
+            @media (prefers-color-scheme: dark) {
+                h2 { color: #58a6ff; }
+                .lang-item { color: #8b949e; }
+                .lang-name { color: #c9d1d9; }
+                .lang-pct { color: #8b949e; }
+                .progress-bar { background-color: #21262d; }
+            }
+        </style>
+    </defs>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 12px 14px;">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                    <path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25zM0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 13H9.75v1.25h1.5a.75.75 0 010 1.5h-6.5a.75.75 0 010-1.5h1.5V13H1.75A1.75 1.75 0 010 11.25v-8.5z"/>
+                </svg>
+                Most Used Languages
+            </h2>
+            <div class="progress-bar">
+                <div style="width: 48%; background-color: #3572A5;" title="Python 48%"></div>
+                <div style="width: 22%; background-color: #f34b7d;" title="C++ 22%"></div>
+                <div style="width: 18%; background-color: #555555;" title="C 18%"></div>
+                <div style="width: 7%; background-color: #3178c6;" title="TypeScript 7%"></div>
+                <div style="width: 5%; background-color: #f1e05a;" title="JavaScript 5%"></div>
+            </div>
+            <div class="lang-grid">
+                <div class="lang-item">
+                    <span class="lang-dot" style="background-color: #3572A5;"></span>
+                    <span class="lang-name">Python</span>
+                    <span class="lang-pct">48.0%</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-dot" style="background-color: #f34b7d;"></span>
+                    <span class="lang-name">C++</span>
+                    <span class="lang-pct">22.0%</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-dot" style="background-color: #555555;"></span>
+                    <span class="lang-name">C</span>
+                    <span class="lang-pct">18.0%</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-dot" style="background-color: #3178c6;"></span>
+                    <span class="lang-name">TypeScript</span>
+                    <span class="lang-pct">7.0%</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-dot" style="background-color: #f1e05a;"></span>
+                    <span class="lang-name">JavaScript</span>
+                    <span class="lang-pct">5.0%</span>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>

@@ -131,15 +131,26 @@
 
 <table width="100%">
   <tr>
-    <th width="36%">🗓️ 3D Contribution Landscape</th>
-    <th width="64%">📊 Engineering Impact &amp; Activity</th>
+    <th width="42%">🗓️ 3D Contribution Landscape</th>
+    <th width="58%">💻 Code &amp; Language Distribution</th>
   </tr>
   <tr>
-    <td valign="middle" align="center" width="36%">
+    <td valign="middle" align="center" width="42%">
       <img src="./isocalendar.svg" alt="Dulnith's 3D Contribution Landscape" width="100%" />
     </td>
-    <td valign="middle" align="center" width="64%">
-      <img src="./metrics.svg" alt="Dulnith's GitHub Engineering Metrics" width="100%" />
+    <td valign="middle" align="center" width="58%">
+      <img src="./languages.svg" alt="Dulnith's Language Distribution" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <th align="center">⚡ Recent Coding Habits &amp; Activity Rhythm</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./habits.svg" alt="Dulnith's Coding Habits and Activity Rhythm" width="100%" />
     </td>
   </tr>
 </table>

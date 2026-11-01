@@ -139,7 +139,7 @@
       <img src="./isocalendar.svg" alt="Dulnith's 3D Contribution Landscape" width="100%" />
     </td>
     <td valign="middle" align="center" width="58%">
-      <img src="./languages.svg" alt="Dulnith's Language Distribution" width="100%" />
+      <img src="./languages.svg?v=2" alt="Dulnith's Language Distribution" width="100%" />
     </td>
   </tr>
 </table>
@@ -150,7 +150,7 @@
   </tr>
   <tr>
     <td width="100%" align="center">
-      <img src="./habits.svg" alt="Dulnith's Coding Habits and Activity Rhythm" width="100%" />
+      <img src="./habits.svg?v=2" alt="Dulnith's Coding Habits and Activity Rhythm" width="100%" />
     </td>
   </tr>
 </table>

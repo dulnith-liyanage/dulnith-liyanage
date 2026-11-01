@@ -58,45 +58,25 @@ jobs:
           plugin_languages_limit: 8
           config_timezone: Asia/Colombo
 
-      - name: Render Habits Card
-        uses: lowlighter/metrics@latest
-        continue-on-error: true
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: dulnith-liyanage
-          filename: habits.svg
-          output_action: none
-          base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: yes
-          config_timezone: Asia/Colombo
-
       - name: Copy and format rendered cards
         run: |
-          for f in languages.svg habits.svg; do
-            if [ -f "/metrics_renders/$f" ]; then
-              cp "/metrics_renders/$f" "./$f"
-            elif [ -f "metrics_renders/$f" ]; then
-              cp "metrics_renders/$f" "./$f"
-            fi
-            if [ -f "./$f" ]; then
-              python3 -c "import re, sys; f='$f'; s=open(f).read(); w='1000' if f=='habits.svg' else '100%'; open(f,'w').write(re.sub(r'<svg xmlns=\"http://www.w3.org/2000/svg\"\s+width=\"(\d+)\"\s+height=\"(\d+)\"', fr'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 \1 \2\" width=\"{w}\" height=\"auto\"', s, count=1))"
-            fi
-          done
+          if [ -f "/metrics_renders/languages.svg" ]; then
+            cp "/metrics_renders/languages.svg" "./languages.svg"
+          elif [ -f "metrics_renders/languages.svg" ]; then
+            cp "metrics_renders/languages.svg" "./languages.svg"
+          fi
+          if [ -f "./languages.svg" ]; then
+            python3 -c "import re; s=open('languages.svg').read(); open('languages.svg','w').write(re.sub(r'<svg xmlns=\"http://www.w3.org/2000/svg\"\s+width=\"(\d+)\"\s+height=\"(\d+)\"', r'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 \1 \2\" width=\"100%\" height=\"auto\"', s, count=1))"
+          fi
 
-      - name: Commit and push clean calendar, languages, and habits
+      - name: Commit and push clean calendar and languages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add isocalendar.svg languages.svg habits.svg
+          git add isocalendar.svg languages.svg
           if git diff --staged --quiet; then
             echo "No changes in metrics files"
           else
-            git commit -m "chore: update isometric calendar, languages, and habits - [Skip GitHub Action]"
+            git commit -m "chore: update isometric calendar and languages - [Skip GitHub Action]"
             git push
           fi

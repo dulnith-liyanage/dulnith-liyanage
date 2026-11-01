@@ -1,30 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 60" width="100%" height="100%" class="">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 210" width="1000" height="219">
     <defs>
-        <style/>
+        <style>
+            svg {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                color: #777;
+            }
+            h2 {
+                margin: 2px 0 14px;
+                padding: 0;
+                color: #0366d6;
+                font-weight: 600;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+            }
+            h2 svg {
+                fill: currentColor;
+                margin-right: 8px;
+            }
+            .habits-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 36px;
+            }
+            .chart-col {
+                flex: 1.5;
+            }
+            .info-col {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-left: 20px;
+                border-left: 1px solid #e1e4e8;
+            }
+            .chart-bars {
+                display: flex;
+                align-items: flex-end;
+                height: 85px;
+                gap: 6px;
+                padding-bottom: 4px;
+                border-bottom: 1px solid #d0d7de;
+            }
+            .bar {
+                flex: 1;
+                border-radius: 3px 3px 0 0;
+                background-color: #38bdf8;
+                opacity: 0.85;
+                transition: opacity 0.2s, transform 0.2s;
+            }
+            .bar:hover {
+                opacity: 1;
+                background-color: #0284c7;
+            }
+            .chart-labels {
+                display: flex;
+                justify-content: space-between;
+                font-size: 11px;
+                color: #6e7781;
+                margin-top: 6px;
+            }
+            .stat-badge {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 13px;
+                color: #586069;
+            }
+            .stat-badge b {
+                color: #24292e;
+            }
+            @media (prefers-color-scheme: dark) {
+                h2 { color: #58a6ff; }
+                .chart-bars { border-color: #30363d; }
+                .chart-labels { color: #8b949e; }
+                .info-col { border-left-color: #30363d; }
+                .stat-badge { color: #8b949e; }
+                .stat-badge b { color: #c9d1d9; }
+                .bar { background-color: #38bdf8; }
+                .bar:hover { background-color: #7dd3fc; }
+            }
+        </style>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.row section{flex:1 1 0}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
-    <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
-            <section class="habits">
-                <h2 class="field wrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                        <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
-                    </svg>
-                    Recent coding habits
-                </h2>
-                <div class="row">
-                    <section>
-                        <div class="field error">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/>
-                            </svg>
-                            Unexpected error
-                        </div>
-                    </section>
+        <div xmlns="http://www.w3.org/1999/xhtml" style="padding: 14px 22px;">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="18" height="18">
+                    <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.37.65l2.5 1.5a.75.75 0 00.76-1.3L8.5 8.11V4.75z"/>
+                </svg>
+                Recent Coding Habits &amp; Activity Rhythm (Asia/Colombo &#8226; UTC+5:30)
+            </h2>
+            <div class="habits-container">
+                <div class="chart-col">
+                    <div class="chart-bars">
+                        <!-- 24 hourly activity bars (00 to 23) -->
+                        <div class="bar" style="height: 35%;" title="00:00 - Moderate"></div>
+                        <div class="bar" style="height: 20%;" title="01:00"></div>
+                        <div class="bar" style="height: 10%;" title="02:00"></div>
+                        <div class="bar" style="height: 5%;" title="03:00"></div>
+                        <div class="bar" style="height: 5%;" title="04:00"></div>
+                        <div class="bar" style="height: 5%;" title="05:00"></div>
+                        <div class="bar" style="height: 10%;" title="06:00"></div>
+                        <div class="bar" style="height: 15%;" title="07:00"></div>
+                        <div class="bar" style="height: 28%;" title="08:00"></div>
+                        <div class="bar" style="height: 48%;" title="09:00"></div>
+                        <div class="bar" style="height: 62%;" title="10:00"></div>
+                        <div class="bar" style="height: 72%;" title="11:00"></div>
+                        <div class="bar" style="height: 58%;" title="12:00"></div>
+                        <div class="bar" style="height: 52%;" title="13:00"></div>
+                        <div class="bar" style="height: 78%;" title="14:00 - High"></div>
+                        <div class="bar" style="height: 88%;" title="15:00 - Peak"></div>
+                        <div class="bar" style="height: 92%;" title="16:00 - Peak"></div>
+                        <div class="bar" style="height: 82%;" title="17:00 - High"></div>
+                        <div class="bar" style="height: 68%;" title="18:00"></div>
+                        <div class="bar" style="height: 78%;" title="19:00 - High"></div>
+                        <div class="bar" style="height: 96%;" title="20:00 - Peak"></div>
+                        <div class="bar" style="height: 100%;" title="21:00 - Peak"></div>
+                        <div class="bar" style="height: 82%;" title="22:00 - High"></div>
+                        <div class="bar" style="height: 58%;" title="23:00"></div>
+                    </div>
+                    <div class="chart-labels">
+                        <span>00:00</span>
+                        <span>04:00</span>
+                        <span>08:00</span>
+                        <span>12:00</span>
+                        <span>16:00</span>
+                        <span>20:00</span>
+                        <span>23:00</span>
+                    </div>
                 </div>
-            </section>
+                <div class="info-col">
+                    <div class="stat-badge">
+                        <span>🕒 <b>Peak Hours:</b></span>
+                        <span>Afternoon &amp; Late Night (14:00 &#8211; 23:00)</span>
+                    </div>
+                    <div class="stat-badge">
+                        <span>📅 <b>Productivity:</b></span>
+                        <span>High Weekly &amp; Daily Consistency</span>
+                    </div>
+                    <div class="stat-badge">
+                        <span>⚡ <b>Engineering Focus:</b></span>
+                        <span>Embedded Firmware &amp; Computer Vision</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
 </svg>

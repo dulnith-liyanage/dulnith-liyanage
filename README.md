@@ -67,11 +67,11 @@
   </picture>
 </p>
 
-<h3 align="center">📊 GitHub Metrics</h3>
+<!-- <h3 align="center">📊 GitHub Metrics</h3>
 
 <p align="center">
   <img src="./github-metrics.svg" alt="Dulnith's GitHub statistics, languages, and coding habits" width="100%" />
-</p>
+</p> -->
 
 <h3 align="center">🐍 Contribution Snake</h3>
 

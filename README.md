@@ -44,42 +44,26 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🦯 <a href="https://github.com/Neural-Nexus-IoTrix-2-0/intellicane">Neural-Nexus-IoTrix-2-0/Intellicane</a></h4>
-      <p>ESP32-based smart cane for the visually impaired — obstacle and drop-off detection with haptic feedback, AI voice assistant for scene description, and live GPS sharing and cane fall detection.</p>
-      <p>
-        <img src="https://img.shields.io/badge/ESP32-Hardware-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/C%2B%2B-Embedded-00599C?style=flat-square&logo=c%2B%2B" />
-        <img src="https://img.shields.io/badge/AI_Voice-Assistive_Tech-purple?style=flat-square" />
-      </p>
+      <h4>🦯 <a href="https://github.com/Neural-Nexus-IoTrix-2-0/intellicane">Neural-Nexus-IoTrix-2-0/intellicane</a></h4>
+      <p>ESP32-based smart cane for the visually impaired — obstacle and drop-off detection with haptic feedback, AI voice assistant for scene description, and live GPS sharing and cane fall detetion.</p>
+      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square" /></p>
     </td>
     <td width="50%" valign="top">
       <h4>👾 <a href="https://github.com/dulnith-liyanage/desk-companion">desk-companion</a></h4>
-      <p>Wi-Fi connected ESP32-C3 desktop Yeti with animated OLED expressions, live weather API, multiple alarms with on-device manager, Pomodoro timer, endless runner mini-game, and web dashboard controlled via a capacitive touch sensor.</p>
-      <p>
-        <img src="https://img.shields.io/badge/ESP32--C3-Hardware-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/C%2B%2B-Embedded-00599C?style=flat-square&logo=c%2B%2B" />
-        <img src="https://img.shields.io/badge/FreeRTOS-IoT-green?style=flat-square" />
-      </p>
+      <p>A Wi-Fi connected ESP32-C3 desktop Yeti with animated OLED expressions, live weather, multiple alarms with on-device manager, Pomodoro timer, endless runner mini-game, and a web dashboard — all controlled via a single capacitive touch sensor.</p>
+      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>♻️ <a href="https://github.com/dulnith-liyanage/EcoSort_Smart_Bin">EcoSort_Smart_Bin</a></h4>
-      <p>Edge AI waste-sorting bin using zero-shot CLIP to classify waste into 4 categories per CMC/Sri Lanka guidelines (paper, plastic, organic, glass/metal), then drives a 2-axis pan-tilt servo arm (Raspberry Pi / Arduino) for mechanical separation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Edge_AI-CLIP-FF6F00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Raspberry_Pi-Robotics-C51A4A?style=flat-square&logo=raspberrypi" />
-        <img src="https://img.shields.io/badge/Python-Computer_Vision-3776AB?style=flat-square&logo=python" />
-      </p>
+      <p>Edge AI waste-sorting bin using zero-shot CLIP to classify waste into 4 categories per CMC/Sri Lanka guidelines (paper, plastic, organic, glass/metal), then drives a 2-axis pan-tilt servo arm (Raspberry Pi I2C or Arduino) to dump it in the correct bin — real-time, no training data required.</p>
+      <p><img src="https://img.shields.io/badge/Python-00599C?style=flat-square" /></p>
     </td>
     <td width="50%" valign="top">
       <h4>📊 <a href="https://github.com/dulnith-liyanage/RetailRadar">RetailRadar</a></h4>
-      <p>Predictive retail analytics engine built for the Data Odyssey 2026 Inter-University Competition &amp; Exhibition, featuring an interactive Streamlit intelligence dashboard.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" />
-        <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" />
-        <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=flat-square&logo=python" />
-      </p>
+      <p>A project for Data Odyssey 2026 Inter-University Competition & Exhibition</p>
+      <p><img src="https://img.shields.io/badge/Python-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/competition-blue?style=flat-square" /> <img src="https://img.shields.io/badge/data-science-blue?style=flat-square" /></p>
     </td>
   </tr>
 </table>

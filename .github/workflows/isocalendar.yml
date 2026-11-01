@@ -60,6 +60,9 @@ jobs:
           elif [ -f metrics_renders/metrics.svg ]; then
             cp metrics_renders/metrics.svg ./metrics.svg
           fi
+          if [ -f ./metrics.svg ]; then
+            python3 -c "import re; s=open('metrics.svg').read(); open('metrics.svg','w').write(re.sub(r'<svg xmlns=\"http://www.w3.org/2000/svg\"\s+width=\"(\d+)\"\s+height=\"(\d+)\"', r'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 \1 \2\" width=\"100%\" height=\"100%\"', s, count=1))"
+          fi
 
       - name: Commit and push clean calendar and metrics
         run: |

@@ -63,7 +63,7 @@
     <td width="50%" valign="top">
       <h4>📊 <a href="https://github.com/dulnith-liyanage/RetailRadar">RetailRadar</a></h4>
       <p>A project for Data Odyssey 2026 Inter-University Competition & Exhibition</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /> <img src="https://img.shields.io/badge/machine-learning-blue?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /></p>
     </td>
   </tr>
 </table>
@@ -71,90 +71,87 @@
 
 ---
 
-<table>
-  <tr>
-    <th width="50%">🛠️ Technical Arsenal</th>
-    <th width="50%">⚡ Domains &amp; Hardware Toolchain</th>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <table width="100%">
-        <tr>
-          <td><b>Hardware &amp; Embedded</b></td>
-          <td>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="24" alt="C++" title="C++"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="24" alt="Arduino / ESP32" title="Arduino / ESP32"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="24" alt="Raspberry Pi" title="Raspberry Pi"/> &nbsp;
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="24" alt="Linux" title="Linux"/>
-          </td>
-        </tr>
-        <tr>
-          <td><b>AI, ML &amp; Mathematics</b></td>
-          <td>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="24" alt="Python" title="Python"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="24" alt="PyTorch" title="PyTorch"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="24" alt="TensorFlow" title="TensorFlow"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="24" alt="scikit-learn" title="scikit-learn"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="24" alt="NumPy" title="NumPy"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="24" alt="Pandas" title="Pandas"/>
-          </td>
-        </tr>
-        <tr>
-          <td><b>Web &amp; Cloud Stack</b></td>
-          <td>
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="24" alt="TypeScript" title="TypeScript"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="24" alt="JavaScript" title="JavaScript"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="24" alt="React" title="React"/> &nbsp;
-            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="24" alt="Tailwind CSS" title="Tailwind CSS"/> &nbsp;
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="24" alt="Docker" title="Docker"/> &nbsp;
-            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="24" alt="Git" title="Git"/>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td valign="top" width="50%">
-      <table width="100%">
-        <tr>
-          <td><b>Microcontrollers &amp; Boards</b></td>
-          <td>
-            <img src="https://img.shields.io/badge/ESP32--S3%2FC3-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
-            <img src="https://img.shields.io/badge/RPi_4-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
-            <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-          </td>
-        </tr>
-        <tr>
-          <td><b>Firmware &amp; Toolchain</b></td>
-          <td>
-            <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP-IDF" />
-            <img src="https://img.shields.io/badge/FreeRTOS-00A86B?style=flat-square" alt="FreeRTOS" />
-            <img src="https://img.shields.io/badge/PlatformIO-F68212?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO" />
-          </td>
-        </tr>
-        <tr>
-          <td><b>Edge AI &amp; Protocols</b></td>
-          <td>
-            <img src="https://img.shields.io/badge/Zero--Shot_CLIP-FF6F00?style=flat-square" alt="Zero-Shot CLIP" />
-            <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-            <img src="https://img.shields.io/badge/I2C%20%7C%20SPI%20%7C%20UART-4A5568?style=flat-square" alt="Protocols" />
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center">🛠️ Technical Arsenal &amp; Engineering Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="22%" align="left"><b>Embedded &amp; Hardware</b></td>
+      <td width="78%">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="26" alt="C++" title="C++"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="26" alt="C" title="C"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/embeddedc/embeddedc-original.svg" width="26" alt="Embedded C" title="Embedded C"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/espressif/E7352C" width="26" alt="ESP32" title="ESP32 (S3/C3)"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="26" alt="Arduino" title="Arduino"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="26" alt="Raspberry Pi" title="Raspberry Pi"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/stmicroelectronics/03234B" width="26" alt="STM32" title="STM32"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/platformio/F68212" width="26" alt="PlatformIO" title="PlatformIO"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cmake/cmake-original.svg" width="26" alt="CMake" title="CMake"/> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="26" alt="Linux" title="Linux / Embedded Linux"/>
+      </td>
+    </tr>
+    <tr>
+      <td width="22%" align="left"><b>AI, ML &amp; Vision</b></td>
+      <td width="78%">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="26" alt="Python" title="Python"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="26" alt="PyTorch" title="PyTorch"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="26" alt="TensorFlow" title="TensorFlow"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/opencv/5C3EE8" width="26" alt="OpenCV" title="OpenCV"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="26" alt="Hugging Face / CLIP" title="Hugging Face / CLIP"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="26" alt="scikit-learn" title="scikit-learn"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="26" alt="NumPy" title="NumPy"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="26" alt="Pandas" title="Pandas"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" width="26" alt="Matplotlib" title="Matplotlib"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="26" alt="Jupyter" title="Jupyter"/>
+      </td>
+    </tr>
+    <tr>
+      <td width="22%" align="left"><b>Robotics &amp; Protocols</b></td>
+      <td width="78%">
+        <img src="https://cdn.simpleicons.org/ros/22314E" width="26" alt="ROS" title="ROS"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/mqtt/660066" width="26" alt="MQTT" title="MQTT"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/bluetooth/0082FC" width="26" alt="Bluetooth" title="Bluetooth / BLE"/> &nbsp;
+        <img src="https://www.vectorlogo.zone/logos/wi-fi/wi-fi-icon.svg" width="26" alt="Wi-Fi" title="Wi-Fi"/> &nbsp;
+        <img src="https://cdn.simpleicons.org/socketdotio/010101" width="26" alt="WebSockets" title="WebSockets"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="26" alt="FastAPI" title="FastAPI"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" width="26" alt="Flask" title="Flask"/> &nbsp;
+        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="26" alt="Postman" title="Postman"/>
+      </td>
+    </tr>
+    <tr>
+      <td width="22%" align="left"><b>Web, Cloud &amp; Tools</b></td>
+      <td width="78%">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" alt="TypeScript" title="TypeScript"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="26" alt="JavaScript" title="JavaScript"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="26" alt="React" title="React"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="26" alt="Next.js" title="Next.js"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="26" alt="Node.js" title="Node.js"/> &nbsp;
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="26" alt="Tailwind CSS" title="Tailwind CSS"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="26" alt="PostgreSQL" title="PostgreSQL"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="26" alt="Docker" title="Docker"/> &nbsp;
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="26" alt="Git" title="Git"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="26" alt="Bash" title="Bash"/> &nbsp;
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="26" alt="VS Code" title="VS Code"/>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-<table>
+<table width="100%">
   <tr>
-    <th width="50%">🗓️ 3D Contribution Landscape</th>
-    <th width="50%">📊 Engineering Impact &amp; Activity</th>
+    <th width="36%">🗓️ 3D Contribution Landscape</th>
+    <th width="64%">📊 Engineering Impact &amp; Activity</th>
   </tr>
   <tr>
-    <td valign="middle" align="center" width="50%">
+    <td valign="middle" align="center" width="36%">
       <img src="./isocalendar.svg" alt="Dulnith's 3D Contribution Landscape" width="100%" />
     </td>
-    <td valign="middle" align="center" width="50%">
+    <td valign="middle" align="center" width="64%">
       <img src="./metrics.svg" alt="Dulnith's GitHub Engineering Metrics" width="100%" />
     </td>
   </tr>

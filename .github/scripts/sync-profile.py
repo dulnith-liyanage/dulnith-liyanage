@@ -119,11 +119,11 @@ def format_pinned_table(repos):
         # Existing repository topics (avoid duplicating words already covered in badges)
         existing_badge_text = " ".join(badges).lower()
         for t in topics:
-            t_words = [w for w in t.lower().replace("-", " ").replace("_", " ").split() if len(w) > 3]
+            t_words = [w for w in t.lower().replace("-", " ").replace("_", " ").split() if len(w) > 2]
             if any(w in existing_badge_text for w in t_words):
                 continue
             b = f'<img src="https://img.shields.io/badge/{urllib.parse.quote(t)}-blue?style=flat-square" />'
-            if b not in badges and len(badges) < 4:
+            if b not in badges and len(badges) < 3:
                 badges.append(b)
         
         badge_html = " ".join(badges[:4])

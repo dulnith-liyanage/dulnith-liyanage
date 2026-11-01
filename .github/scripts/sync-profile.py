@@ -2,6 +2,7 @@
 import os
 import re
 import json
+import urllib.parse
 import urllib.request
 
 USERNAME = "dulnith-liyanage"
@@ -21,7 +22,7 @@ def fetch_pinned_repos():
               primaryLanguage {
                 name
               }
-              repositoryTopics(first: 3) {
+              repositoryTopics(first: 5) {
                 nodes {
                   topic {
                     name
@@ -65,7 +66,6 @@ def format_pinned_table(repos):
         url = r.get("url", f"https://github.com/{name_with_owner}")
         desc = r.get("description") or "No description provided."
         
-        # Pick relevant emoji
         lower = (name + " " + desc).lower()
         if "cane" in lower: emoji = "🦯"
         elif "desk" in lower or "yeti" in lower: emoji = "👾"
@@ -76,15 +76,53 @@ def format_pinned_table(repos):
         else: emoji = "🚀"
 
         badges = []
+        # Primary language badge with logo
         if r.get("primaryLanguage"):
             lang = r["primaryLanguage"]["name"]
-            badges.append(f'<img src="https://img.shields.io/badge/{urllib.parse.quote(lang)}-00599C?style=flat-square" />')
+            if lang == "C++":
+                badges.append('<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" />')
+            elif lang == "Python":
+                badges.append('<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />')
+            else:
+                badges.append(f'<img src="https://img.shields.io/badge/{urllib.parse.quote(lang)}-00599C?style=flat-square" />')
         
+        # Repository topics
         topics = [n["topic"]["name"] for n in r.get("repositoryTopics", {}).get("nodes", [])]
-        for t in topics[:2]:
-            badges.append(f'<img src="https://img.shields.io/badge/{urllib.parse.quote(t)}-blue?style=flat-square" />')
+        topic_str = " ".join(topics).lower()
+        full_text = lower + " " + topic_str
+
+        # Contextual technology badges
+        if "esp32-c3" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/ESP32--C3-Hardware-blue?style=flat-square" />')
+        elif "esp32" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/ESP32-Hardware-blue?style=flat-square" />')
+
+        if "freertos" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/FreeRTOS-IoT-green?style=flat-square" />')
+        if "clip" in full_text or "edge ai" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Edge_AI-CLIP-FF6F00?style=flat-square" />')
+        if "raspberry pi" in full_text or "servo" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Raspberry_Pi-Robotics-C51A4A?style=flat-square&logo=raspberrypi" />')
+        if "assistive" in full_text or "visually impaired" in full_text or "cane" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Assistive_Tech-AI_Voice-purple?style=flat-square" />')
+        if "oled" in full_text or "yeti" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/OLED-Display-yellow?style=flat-square" />')
+        if "touch" in full_text or "capacitive" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Sensors-IoT-orange?style=flat-square" />')
+        if "gps" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/GPS-IoT-brightgreen?style=flat-square" />')
+        if "streamlit" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" />')
+        if "competition" in full_text or "odyssey" in full_text:
+            badges.append('<img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" />')
+
+        # Existing repository topics (fill up remaining slots if any)
+        for t in topics:
+            b = f'<img src="https://img.shields.io/badge/{urllib.parse.quote(t)}-blue?style=flat-square" />'
+            if b not in badges and len(badges) < 4:
+                badges.append(b)
         
-        badge_html = " ".join(badges)
+        badge_html = " ".join(badges[:4])
         return f'''    <td width="50%" valign="top">
       <h4>{emoji} <a href="{url}">{name}</a></h4>
       <p>{desc}</p>

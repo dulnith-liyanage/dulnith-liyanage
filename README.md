@@ -26,8 +26,8 @@
       </ul>
       <p>
         <a href="https://www.linkedin.com/in/dulnith-liyanage/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage/svg%2Bxml%3Butf8%2C%253Csvg%2520xmlns%253D%2522http%253A//www.w3.org/2000/svg%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520fill%253D%2522white%2522%253E%253Cpath%2520d%253D%2522M19%25200h-14c-2.761%25200-5%25202.239-5%25205v14c0%25202.761%25202.239%25205%25205%25205h14c2.762%25200%25205-2.239%25205-5v-14c0-2.761-2.238-5-5-5zm-11%252019h-3v-11h3v11zm-1.5-12.268c-.966%25200-1.75-.79-1.75-1.764s.784-1.764%25201.75-1.764%25201.75.79%25201.75%25201.764-.783%25201.764-1.75%25201.764zm13.5%252012.268h-3v-5.604c0-3.368-4-3.113-4%25200v5.604h-3v-11h3v1.765c1.396-2.586%25207-2.777%25207%25202.476v6.759z%2522/%253E%253C/svg%253E" alt="LinkedIn" /></a>
+        <a href="https://www.hackerrank.com/profile/dnliyanage" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
         <a href="mailto:dnethmiraliyanage@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-        <a href="https://github.com/dulnith-liyanage"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
       </p>
     </td>
     <td valign="top" width="45%">
@@ -46,24 +46,24 @@
     <td width="50%" valign="top">
       <h4>🦯 <a href="https://github.com/Neural-Nexus-IoTrix-2-0/intellicane">Neural-Nexus-IoTrix-2-0/intellicane</a></h4>
       <p>ESP32-based smart cane for the visually impaired — obstacle and drop-off detection with haptic feedback, AI voice assistant for scene description, and live GPS sharing and cane fall detetion.</p>
-      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" /> <img src="https://img.shields.io/badge/ESP32-Hardware-blue?style=flat-square" /> <img src="https://img.shields.io/badge/Assistive_Tech-AI_Voice-purple?style=flat-square" /> <img src="https://img.shields.io/badge/GPS-IoT-brightgreen?style=flat-square" /></p>
     </td>
     <td width="50%" valign="top">
       <h4>👾 <a href="https://github.com/dulnith-liyanage/desk-companion">desk-companion</a></h4>
       <p>A Wi-Fi connected ESP32-C3 desktop Yeti with animated OLED expressions, live weather, multiple alarms with on-device manager, Pomodoro timer, endless runner mini-game, and a web dashboard — all controlled via a single capacitive touch sensor.</p>
-      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" /> <img src="https://img.shields.io/badge/ESP32--C3-Hardware-blue?style=flat-square" /> <img src="https://img.shields.io/badge/OLED-Display-yellow?style=flat-square" /> <img src="https://img.shields.io/badge/Sensors-IoT-orange?style=flat-square" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>♻️ <a href="https://github.com/dulnith-liyanage/EcoSort_Smart_Bin">EcoSort_Smart_Bin</a></h4>
       <p>Edge AI waste-sorting bin using zero-shot CLIP to classify waste into 4 categories per CMC/Sri Lanka guidelines (paper, plastic, organic, glass/metal), then drives a 2-axis pan-tilt servo arm (Raspberry Pi I2C or Arduino) to dump it in the correct bin — real-time, no training data required.</p>
-      <p><img src="https://img.shields.io/badge/Python-00599C?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Edge_AI-CLIP-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/Raspberry_Pi-Robotics-C51A4A?style=flat-square&logo=raspberrypi" /></p>
     </td>
     <td width="50%" valign="top">
       <h4>📊 <a href="https://github.com/dulnith-liyanage/RetailRadar">RetailRadar</a></h4>
       <p>A project for Data Odyssey 2026 Inter-University Competition & Exhibition</p>
-      <p><img src="https://img.shields.io/badge/Python-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/competition-blue?style=flat-square" /> <img src="https://img.shields.io/badge/data-science-blue?style=flat-square" /></p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /></p>
     </td>
   </tr>
 </table>

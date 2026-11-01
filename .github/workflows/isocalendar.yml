@@ -85,7 +85,7 @@ jobs:
               cp "metrics_renders/$f" "./$f"
             fi
             if [ -f "./$f" ]; then
-              python3 -c "import re; s=open('$f').read(); open('$f','w').write(re.sub(r'<svg xmlns=\"http://www.w3.org/2000/svg\"\s+width=\"(\d+)\"\s+height=\"(\d+)\"', r'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 \1 \2\" width=\"100%\" height=\"100%\"', s, count=1))"
+              python3 -c "import re, sys; f='$f'; s=open(f).read(); w='1000' if f=='habits.svg' else '100%'; open(f,'w').write(re.sub(r'<svg xmlns=\"http://www.w3.org/2000/svg\"\s+width=\"(\d+)\"\s+height=\"(\d+)\"', fr'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 \1 \2\" width=\"{w}\" height=\"auto\"', s, count=1))"
             fi
           done
 

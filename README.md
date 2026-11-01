@@ -146,10 +146,10 @@
 
 <table width="100%">
   <tr>
-    <th align="center">⚡ Recent Coding Habits &amp; Activity Rhythm</th>
+    <th width="100%" align="center">⚡ Recent Coding Habits &amp; Activity Rhythm</th>
   </tr>
   <tr>
-    <td align="center">
+    <td width="100%" align="center">
       <img src="./habits.svg" alt="Dulnith's Coding Habits and Activity Rhythm" width="100%" />
     </td>
   </tr>

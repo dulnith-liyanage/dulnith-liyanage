@@ -1,0 +1,48 @@
+name: Sync Pinned Repos & Live Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs automatically every 6 hours
+  workflow_dispatch:      # Allows 1-click manual sync anytime you pin new repos!
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/sync-profile.py
+      - .github/workflows/sync-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'dulnith-liyanage/dulnith-liyanage' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync Pinned Repos and Activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/sync-profile.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes detected in README.md"
+            exit 0
+          fi
+          git commit -m "chore: sync pinned repos and live activity"
+          git pull --rebase origin main
+          git push origin HEAD:main

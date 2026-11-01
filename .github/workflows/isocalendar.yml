@@ -1,0 +1,35 @@
+name: Half-Year Isometric Calendar
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/isocalendar.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-main-writes
+  cancel-in-progress: false
+
+jobs:
+  isocalendar:
+    if: github.repository == 'dulnith-liyanage/dulnith-liyanage' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Render Half-Year Isometric Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: dulnith-liyanage
+          repo: dulnith-liyanage
+          committer_branch: main
+          filename: isocalendar.svg
+          output_action: commit
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year

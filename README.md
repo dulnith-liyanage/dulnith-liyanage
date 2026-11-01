@@ -71,25 +71,52 @@
 
 ---
 
-### 🛠️ Technical Arsenal
-
-<div align="center">
-
-| Domain | Technologies &amp; Tools |
-| :--- | :--- |
-| **Hardware &amp; Embedded** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="28" alt="C++" title="C++"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="28" alt="Arduino / ESP32" title="Arduino / ESP32"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="28" alt="Raspberry Pi" title="Raspberry Pi"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="28" alt="Linux" title="Linux"/> |
-| **AI, ML &amp; Mathematics** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="28" alt="Python" title="Python"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="28" alt="PyTorch" title="PyTorch"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="28" alt="TensorFlow" title="TensorFlow"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="28" alt="scikit-learn" title="scikit-learn"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="28" alt="NumPy" title="NumPy"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="28" alt="Pandas" title="Pandas"/> |
-| **Web &amp; Cloud Stack** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="28" alt="TypeScript" title="TypeScript"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="28" alt="JavaScript" title="JavaScript"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="28" alt="React" title="React"/> &nbsp; <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="28" alt="Tailwind CSS" title="Tailwind CSS"/> &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="28" alt="Docker" title="Docker"/> &nbsp; <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="28" alt="Git" title="Git"/> |
-
-</div>
-
----
-
-### 🗓️ Isometric Commit Calendar
-
-<p align="center">
-  <img src="./isocalendar.svg" alt="Dulnith's Isometric Commit Calendar" width="100%" />
-</p>
+<table>
+  <tr>
+    <th width="48%">🛠️ Technical Arsenal</th>
+    <th width="52%">🗓️ Isometric Commit Calendar</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <table width="100%">
+        <tr>
+          <td><b>Hardware &amp; Embedded</b></td>
+          <td>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="24" alt="C++" title="C++"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="24" alt="Arduino / ESP32" title="Arduino / ESP32"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="24" alt="Raspberry Pi" title="Raspberry Pi"/> &nbsp;
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="24" alt="Linux" title="Linux"/>
+          </td>
+        </tr>
+        <tr>
+          <td><b>AI, ML &amp; Mathematics</b></td>
+          <td>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="24" alt="Python" title="Python"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="24" alt="PyTorch" title="PyTorch"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="24" alt="TensorFlow" title="TensorFlow"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="24" alt="scikit-learn" title="scikit-learn"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="24" alt="NumPy" title="NumPy"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="24" alt="Pandas" title="Pandas"/>
+          </td>
+        </tr>
+        <tr>
+          <td><b>Web &amp; Cloud Stack</b></td>
+          <td>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="24" alt="TypeScript" title="TypeScript"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="24" alt="JavaScript" title="JavaScript"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="24" alt="React" title="React"/> &nbsp;
+            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="24" alt="Tailwind CSS" title="Tailwind CSS"/> &nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="24" alt="Docker" title="Docker"/> &nbsp;
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="24" alt="Git" title="Git"/>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top" align="center">
+      <img src="./isocalendar.svg" alt="Dulnith's Isometric Commit Calendar" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 

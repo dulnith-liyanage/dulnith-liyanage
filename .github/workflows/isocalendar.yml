@@ -26,7 +26,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: dulnith-liyanage
-          repo: dulnith-liyanage
           committer_branch: main
           filename: isocalendar.svg
           output_action: commit

@@ -12,7 +12,7 @@
 
 ---
 
-### 👨‍💻 System Architecture &amp; About Me
+### 👨‍💻 About Me
 
 <table>
   <tr>
@@ -22,7 +22,7 @@
         <li>🌱 <strong>Software Engineering Intern</strong> at <a href="https://buildstart.io/"><strong>BuildStart</strong></a></li>
         <li>🤖 Exploring <strong>Edge AI, Computer Vision, and Deep Learning</strong> from mathematical first principles</li>
         <li>⚡ <strong>Engineering Philosophy:</strong> <em>"I'd rather derive it than memorize it."</em></li>
-        <li>📍 Based in Colombo, Sri Lanka</li>
+        <li>📍 Based in Bandarawela, Sri Lanka</li>
       </ul>
       <p>
         <a href="https://www.linkedin.com/in/dulnith-liyanage/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage/svg%2Bxml%3Butf8%2C%253Csvg%2520xmlns%253D%2522http%253A//www.w3.org/2000/svg%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520fill%253D%2522white%2522%253E%253Cpath%2520d%253D%2522M19%25200h-14c-2.761%25200-5%25202.239-5%25205v14c0%25202.761%25202.239%25205%25205%25205h14c2.762%25200%25205-2.239%25205-5v-14c0-2.761-2.238-5-5-5zm-11%252019h-3v-11h3v11zm-1.5-12.268c-.966%25200-1.75-.79-1.75-1.764s.784-1.764%25201.75-1.764%25201.75.79%25201.75%25201.764-.783%25201.764-1.75%25201.764zm13.5%252012.268h-3v-5.604c0-3.368-4-3.113-4%25200v5.604h-3v-11h3v1.765c1.396-2.586%25207-2.777%25207%25202.476v6.759z%2522/%253E%253C/svg%253E" alt="LinkedIn" /></a>

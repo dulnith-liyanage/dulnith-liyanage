@@ -141,55 +141,6 @@ def format_pinned_table(repos):
 
     return "<table>\n" + "\n".join(rows) + "\n</table>"
 
-def fetch_recent_activity():
-    url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=30"
-    headers = {"User-Agent": "Profile-Sync-Bot"}
-    if TOKEN:
-        headers["Authorization"] = f"Bearer {TOKEN}"
-
-    req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req) as resp:
-            events = json.loads(resp.read().decode("utf-8"))
-    except Exception as e:
-        print(f"Error fetching events: {e}")
-        return None
-
-    lines = []
-    seen = set()
-    for e in events:
-        t = e.get("type")
-        repo = e.get("repo", {}).get("name")
-        repo_url = f"https://github.com/{repo}"
-        key = (t, repo)
-
-        if key in seen:
-            continue
-        seen.add(key)
-
-        if t == "PushEvent":
-            commits = e.get("payload", {}).get("commits", [])
-            msg = commits[0]["message"].split("\n")[0] if commits else "Update code"
-            if len(msg) > 60: msg = msg[:57] + "..."
-            lines.append(f"1. 🚀 Pushed to [{repo}]({repo_url}): *\"{msg}\"*")
-        elif t == "PullRequestEvent":
-            action = e.get("payload", {}).get("action", "")
-            num = e.get("payload", {}).get("number", "")
-            lines.append(f"1. 🔀 {action.capitalize()} PR #{num} in [{repo}]({repo_url})")
-        elif t == "IssuesEvent":
-            action = e.get("payload", {}).get("action", "")
-            num = e.get("payload", {}).get("issue", {}).get("number", "")
-            lines.append(f"1. 💬 {action.capitalize()} issue #{num} in [{repo}]({repo_url})")
-        elif t == "WatchEvent":
-            lines.append(f"1. ⭐ Starred [{repo}]({repo_url})")
-        elif t == "CreateEvent":
-            ref_type = e.get("payload", {}).get("ref_type", "repo")
-            lines.append(f"1. 📦 Created {ref_type} in [{repo}]({repo_url})")
-
-        if len(lines) >= 8:
-            break
-
-    return "\n".join(lines) if lines else None
 
 def update_readme():
     readme_path = os.path.join(os.path.dirname(__file__), "..", "..", "README.md")
@@ -207,13 +158,6 @@ def update_readme():
             pattern = r"(<!-- START_SECTION:featured-projects -->)(.*?)(<!-- END_SECTION:featured-projects -->)"
             content = re.sub(pattern, rf"\g<1>\n{new_table}\n\g<3>", content, flags=re.DOTALL)
             print("Updated Featured Projects section.")
-
-    # Update Activity
-    activity = fetch_recent_activity()
-    if activity:
-        pattern = r"(<!-- START_SECTION:activity -->)(.*?)(<!-- END_SECTION:activity -->)"
-        content = re.sub(pattern, rf"\g<1>\n{activity}\n\g<3>", content, flags=re.DOTALL)
-        print("Updated Live Activity section.")
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(content)

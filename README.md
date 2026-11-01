@@ -73,11 +73,11 @@
 
 <table>
   <tr>
-    <th width="38%">🛠️ Technical Arsenal</th>
-    <th width="62%">🗓️ Isometric Commit Calendar</th>
+    <th width="50%">🛠️ Technical Arsenal</th>
+    <th width="50%">⚡ Domains &amp; Hardware Toolchain</th>
   </tr>
   <tr>
-    <td valign="middle" width="38%">
+    <td valign="top" width="50%">
       <table width="100%">
         <tr>
           <td><b>Hardware &amp; Embedded</b></td>
@@ -112,23 +112,50 @@
         </tr>
       </table>
     </td>
-    <td valign="middle" align="center" width="62%">
-      <img src="./isocalendar.svg" alt="Dulnith's Isometric Commit Calendar" width="100%" />
+    <td valign="top" width="50%">
+      <table width="100%">
+        <tr>
+          <td><b>Microcontrollers &amp; Boards</b></td>
+          <td>
+            <img src="https://img.shields.io/badge/ESP32--S3%2FC3-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+            <img src="https://img.shields.io/badge/RPi_4-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+            <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+          </td>
+        </tr>
+        <tr>
+          <td><b>Firmware &amp; Toolchain</b></td>
+          <td>
+            <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP-IDF" />
+            <img src="https://img.shields.io/badge/FreeRTOS-00A86B?style=flat-square" alt="FreeRTOS" />
+            <img src="https://img.shields.io/badge/PlatformIO-F68212?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO" />
+          </td>
+        </tr>
+        <tr>
+          <td><b>Edge AI &amp; Protocols</b></td>
+          <td>
+            <img src="https://img.shields.io/badge/Zero--Shot_CLIP-FF6F00?style=flat-square" alt="Zero-Shot CLIP" />
+            <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+            <img src="https://img.shields.io/badge/I2C%20%7C%20SPI%20%7C%20UART-4A5568?style=flat-square" alt="Protocols" />
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
 ---
 
-### ⚡ Live Activity
-
-<!--START_SECTION:activity-->
-1. 🚀 Pushed commits to [Neural-Nexus-IoTrix-2-0/intellicane](https://github.com/Neural-Nexus-IoTrix-2-0/intellicane)
-2. 🛠️ Updated control logic in [dulnith-liyanage/desk-companion](https://github.com/dulnith-liyanage/desk-companion)
-3. ♻️ Refactored zero-shot CLIP classification in [dulnith-liyanage/EcoSort_Smart_Bin](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)
-4. 📊 Optimized Streamlit dashboard for [dulnith-liyanage/RetailRadar](https://github.com/dulnith-liyanage/RetailRadar)
-5. 🔀 Merged branch in [dulnith-liyanage/EcoSort_Smart_Bin](https://github.com/dulnith-liyanage/EcoSort_Smart_Bin)
-6. 🌿 Created feature branch in [dulnith-liyanage/desk-companion](https://github.com/dulnith-liyanage/desk-companion)
-7. ⭐ Starred robotics &amp; embedded tooling repositories
-8. 💬 Opened discussion on Edge AI model latency on embedded microcontrollers
-<!--END_SECTION:activity-->
+<table>
+  <tr>
+    <th width="50%">🗓️ 3D Contribution Landscape</th>
+    <th width="50%">📊 Engineering Impact &amp; Activity</th>
+  </tr>
+  <tr>
+    <td valign="middle" align="center" width="50%">
+      <img src="./isocalendar.svg" alt="Dulnith's 3D Contribution Landscape" width="100%" />
+    </td>
+    <td valign="middle" align="center" width="50%">
+      <img src="./metrics.svg" alt="Dulnith's GitHub Engineering Metrics" width="100%" />
+    </td>
+  </tr>
+</table>

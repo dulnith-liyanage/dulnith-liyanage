@@ -109,19 +109,6 @@
       </td>
     </tr>
     <tr>
-      <td width="22%" align="left"><b>Robotics &amp; Protocols</b></td>
-      <td width="78%">
-        <img src="https://cdn.simpleicons.org/ros/22314E" width="26" alt="ROS" title="ROS"/> &nbsp;
-        <img src="https://cdn.simpleicons.org/mqtt/660066" width="26" alt="MQTT" title="MQTT"/> &nbsp;
-        <img src="https://cdn.simpleicons.org/bluetooth/0082FC" width="26" alt="Bluetooth" title="Bluetooth / BLE"/> &nbsp;
-        <img src="https://www.vectorlogo.zone/logos/wi-fi/wi-fi-icon.svg" width="26" alt="Wi-Fi" title="Wi-Fi"/> &nbsp;
-        <img src="https://cdn.simpleicons.org/socketdotio/010101" width="26" alt="WebSockets" title="WebSockets"/> &nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="26" alt="FastAPI" title="FastAPI"/> &nbsp;
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" width="26" alt="Flask" title="Flask"/> &nbsp;
-        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="26" alt="Postman" title="Postman"/>
-      </td>
-    </tr>
-    <tr>
       <td width="22%" align="left"><b>Web, Cloud &amp; Tools</b></td>
       <td width="78%">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" alt="TypeScript" title="TypeScript"/> &nbsp;

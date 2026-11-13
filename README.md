@@ -56,14 +56,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4>🤖 <a href="https://github.com/PyroTensor/EMBER">PyroTensor/EMBER</a></h4>
+      <p>EMBER: Exploration of Microgravity Burning through Experimental Research is an AI-powered platform that brings NASA's microgravity combustion research together, enabling users to explore experiments, analyze data, visualize findings, and uncover insights into how fire behaves in space to support safer future space missions.</p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /></p>
+    </td>
+    <td width="50%" valign="top">
       <h4>♻️ <a href="https://github.com/dulnith-liyanage/EcoSort_Smart_Bin">EcoSort_Smart_Bin</a></h4>
       <p>Edge AI waste-sorting bin using zero-shot CLIP to classify waste into 4 categories per CMC/Sri Lanka guidelines (paper, plastic, organic, glass/metal), then drives a 2-axis pan-tilt servo arm (Raspberry Pi I2C or Arduino) to dump it in the correct bin — real-time, no training data required.</p>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Edge_AI-CLIP-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/Raspberry_Pi-Robotics-C51A4A?style=flat-square&logo=raspberrypi" /></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📊 <a href="https://github.com/dulnith-liyanage/RetailRadar">RetailRadar</a></h4>
-      <p>A project for Data Odyssey 2026 Inter-University Competition & Exhibition</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit" /> <img src="https://img.shields.io/badge/Data_Science-Competition-blueviolet?style=flat-square" /></p>
     </td>
   </tr>
 </table>

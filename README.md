@@ -58,7 +58,13 @@
     <td width="50%" valign="top">
       <h4>🤖 <a href="https://github.com/PyroTensor/EMBER">PyroTensor/EMBER</a></h4>
       <p>EMBER: Exploration of Microgravity Burning through Experimental Research is an AI-powered platform that brings NASA's microgravity combustion research together, enabling users to explore experiments, analyze data, visualize findings, and uncover insights into how fire behaves in space to support safer future space missions.</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
+      </p>
     </td>
     <td width="50%" valign="top">
       <h4>♻️ <a href="https://github.com/dulnith-liyanage/EcoSort_Smart_Bin">EcoSort_Smart_Bin</a></h4>

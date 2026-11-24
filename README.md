@@ -143,14 +143,3 @@
     </td>
   </tr>
 </table>
-
-<table width="100%">
-  <tr>
-    <th width="100%" align="center">⚡ Recent Coding Habits &amp; Activity Rhythm</th>
-  </tr>
-  <tr>
-    <td width="100%" align="center">
-      <img src="./habits.svg?v=2" alt="Dulnith's Coding Habits and Activity Rhythm" width="100%" />
-    </td>
-  </tr>
-</table>
